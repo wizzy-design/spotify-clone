@@ -46,7 +46,6 @@ const Sidebar: React.FC<SidebarProps> = ({ children, songs }) => {
           <Library songs={songs}/>
         </Box>
       </div>
-
       {/* Beside the sidebar. Main part of the app */}
       <main className="w-full py-2">{children}</main>
     </div>
