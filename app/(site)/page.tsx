@@ -34,7 +34,7 @@ export default async function Home() {
         </div>
         {/* List of songs in the db */}
         <div>
-          <PageContent songs={songs}/>
+          <PageContent songs={songs} />
         </div>
       </div>
     </div>
